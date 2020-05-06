@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0EEDBD4C246262B500CE0890"
-               BuildableName = "multiEnvironmentsTest.app"
+               BuildableName = "release-APP.app"
                BlueprintName = "multiEnvironmentsTest"
                ReferencedContainer = "container:multiEnvironmentsTest.xcodeproj">
             </BuildableReference>
@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "debug-sit"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "release-uat"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0EEDBD4C246262B500CE0890"
-            BuildableName = "multiEnvironmentsTest.app"
+            BuildableName = "release-APP.app"
             BlueprintName = "multiEnvironmentsTest"
             ReferencedContainer = "container:multiEnvironmentsTest.xcodeproj">
          </BuildableReference>
@@ -62,14 +62,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0EEDBD4C246262B500CE0890"
-            BuildableName = "multiEnvironmentsTest.app"
+            BuildableName = "release-APP.app"
             BlueprintName = "multiEnvironmentsTest"
             ReferencedContainer = "container:multiEnvironmentsTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "debug-sit">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
