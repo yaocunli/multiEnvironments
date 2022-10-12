@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E7BEF1628F6B4270017C78B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		0EEDBD4D246262B600CE0890 /* debugsit-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "debugsit-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEDBD50246262B600CE0890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EEDBD51246262B600CE0890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 				0EEDBD54246262B600CE0890 /* SceneDelegate.m */,
 				0EEDBD56246262B600CE0890 /* ViewController.h */,
 				0EEDBD57246262B600CE0890 /* ViewController.m */,
+				0E7BEF1628F6B4270017C78B /* Header.h */,
 				0EEDBD59246262B600CE0890 /* Main.storyboard */,
 				0EEDBD5C246262B700CE0890 /* Assets.xcassets */,
 				0EEDBD5E246262B700CE0890 /* LaunchScreen.storyboard */,
@@ -309,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ME79D3E854;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"env_prd=1",
@@ -394,6 +397,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CustomAppBundleld = com.multienvironment.debugsit;
 				CustomProductName = "debugsit-APP";
+				DEVELOPMENT_TEAM = ME79D3E854;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"env_sit=1",

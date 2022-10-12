@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "Header.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *contentsLabel;
 
 @end
 
@@ -16,17 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    #ifdef env_sit
-    #define rootUrl @"env_sit"
-    #elif env_uat
-    #define rootUrl @"env_uat"
-    #elif env_prd
-    #define rootUrl @"env_prd"
-    
-    #endif
-    
-    NSLog(rootUrl);
+    self.contentsLabel.text = rootUrl;
 }
 
 
